@@ -1,0 +1,36 @@
+LIBRARY IEEE; --有时钟使能的十进制计数器
+USE IEEE.STD_LOGIC_1164.ALL;
+ENTITY CNT10 IS
+	PORT (CLK : IN STD_LOGIC; --计数时钟信号
+         CLR : IN STD_LOGIC; --清零信号
+         ENA : IN STD_LOGIC; --计数使能信号
+         CQ : OUT INTEGER RANGE 0 TO 15; --4位计数结果输出
+         CARRY_OUT : OUT STD_LOGIC); --计数进位
+END CNT10;
+ARCHITECTURE behav OF CNT10 IS
+	SIGNAL CQI:INTEGER RANGE 0 TO 15;
+BEGIN
+	PROCESS(CLK, CLR, ENA)
+	BEGIN
+		IF CLR='1' THEN
+			CQI<=0; --计数器异步清零
+		ELSIF CLK'EVENT AND CLK='1' THEN
+			IF ENA='1' THEN
+				IF CQI<9 THEN --等于9则计数器清零
+					CQI<=CQI+1;
+				ELSE
+					CQI<=0;
+				END IF;
+			END IF;
+		END IF;
+	END PROCESS;
+	PROCESS(CQI)
+	BEGIN
+		IF CQI=9 THEN
+			CARRY_OUT<='1'; --进位输出
+		ELSE
+			CARRY_OUT<='0';
+		END IF;
+	END PROCESS;
+	CQ<=CQI;
+END behav;

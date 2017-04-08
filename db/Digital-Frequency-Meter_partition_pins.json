@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "DUAN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DUAN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DUAN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DUAN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DUAN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DUAN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DUAN[6]",
+					"strict" : false
+				},
+				{
+					"name" : "WEI[0]",
+					"strict" : false
+				},
+				{
+					"name" : "WEI[1]",
+					"strict" : false
+				},
+				{
+					"name" : "WEI[2]",
+					"strict" : false
+				},
+				{
+					"name" : "WEI[3]",
+					"strict" : false
+				},
+				{
+					"name" : "WEI[4]",
+					"strict" : false
+				},
+				{
+					"name" : "WEI[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
