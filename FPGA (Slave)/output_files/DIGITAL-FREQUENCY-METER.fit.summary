@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed May 24 09:40:21 2017
+Quartus Prime Version : 16.1.2 Build 203 01/18/2017 SJ Standard Edition
+Revision Name : DIGITAL-FREQUENCY-METER
+Top-level Entity Name : DIGITAL_FREQUENCY_METER
+Family : Cyclone IV E
+Device : EP4CE6F17C8
+Timing Models : Final
+Total logic elements : 369 / 6,272 ( 6 % )
+    Total combinational functions : 212 / 6,272 ( 3 % )
+    Dedicated logic registers : 301 / 6,272 ( 5 % )
+Total registers : 301
+Total pins : 9 / 180 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

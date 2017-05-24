@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "RST_ARDUINO",
+					"strict" : false
+				},
+				{
+					"name" : "CLK_ARDUINO",
+					"strict" : false
+				},
+				{
+					"name" : "M_ARDUINO",
+					"strict" : false
+				},
+				{
+					"name" : "N_ARDUINO",
+					"strict" : false
+				},
+				{
+					"name" : "H_ARDUINO",
+					"strict" : false
+				},
+				{
+					"name" : "CLK_SYNC",
+					"strict" : false
+				},
+				{
+					"name" : "CLK_SIGNAL",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

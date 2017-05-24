@@ -1,0 +1,61 @@
+# do DIGITAL-FREQUENCY-METER.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:30:16 on May 24,2017
+# vcom -work work DIGITAL-FREQUENCY-METER.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity DIGITAL_FREQUENCY_METER
+# -- Compiling architecture structure of DIGITAL_FREQUENCY_METER
+# End time: 09:30:16 on May 24,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:30:16 on May 24,2017
+# vcom -work work Waveform.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DIGITAL_FREQUENCY_METER_vhd_vec_tst
+# -- Compiling architecture DIGITAL_FREQUENCY_METER_arch of DIGITAL_FREQUENCY_METER_vhd_vec_tst
+# End time: 09:30:16 on May 24,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.DIGITAL_FREQUENCY_METER_vhd_vec_tst 
+# Start time: 09:30:17 on May 24,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.digital_frequency_meter_vhd_vec_tst(digital_frequency_meter_arch)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.digital_frequency_meter(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_pllpack(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading cycloneive.cycloneive_pll(vital_pll)
+# Loading cycloneive.cycloneive_mn_cntr(behave)
+# Loading cycloneive.cycloneive_scale_cntr(behave)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+# ** Warning: Design size of 91933 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# after#31
+# ** Note: Cycloneive PLL locked to incoming clock
+#    Time: 90 ns  Iteration: 3  Instance: /digital_frequency_meter_vhd_vec_tst/i1/\PLL_MODULE|altpll_component|auto_generated|pll1\
+# ** Note: Cycloneive PLL lost lock due to loss of input clock or the input clock is not detected within the allowed time frame.
+#    Time: 5030 ns  Iteration: 3  Instance: /digital_frequency_meter_vhd_vec_tst/i1/\PLL_MODULE|altpll_component|auto_generated|pll1\
+# End time: 09:30:19 on May 24,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
