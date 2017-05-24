@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DIGITAL-FREQUENCY-METER
-Wed May 24 09:40:14 2017
+Wed May 24 19:18:45 2017
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
 
 
@@ -47,7 +47,7 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed May 24 09:40:14 2017           ;
+; Analysis & Synthesis Status        ; Successful - Wed May 24 19:18:45 2017           ;
 ; Quartus Prime Version              ; 16.1.2 Build 203 01/18/2017 SJ Standard Edition ;
 ; Revision Name                      ; DIGITAL-FREQUENCY-METER                         ;
 ; Top-level Entity Name              ; DIGITAL_FREQUENCY_METER                         ;
@@ -168,24 +168,24 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                    ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                ; Library ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------+---------+
-; DIGITAL_FREQUENCY_METER.vhd      ; yes             ; User VHDL File               ; D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/DIGITAL_FREQUENCY_METER.vhd ;         ;
-; PLL.vhd                          ; yes             ; User Wizard-Generated File   ; D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/PLL.vhd                     ;         ;
-; CTRL.vhd                         ; yes             ; User VHDL File               ; D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CTRL.vhd                    ;         ;
-; CNT.vhd                          ; yes             ; User VHDL File               ; D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT.vhd                     ;         ;
-; CNT_EX.vhd                       ; yes             ; User VHDL File               ; D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT_EX.vhd                  ;         ;
-; SHIFT_OUT.vhd                    ; yes             ; User VHDL File               ; D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/SHIFT_OUT.vhd               ;         ;
-; altpll.tdf                       ; yes             ; Megafunction                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altpll.tdf                ;         ;
-; aglobal161.inc                   ; yes             ; Megafunction                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/aglobal161.inc            ;         ;
-; stratix_pll.inc                  ; yes             ; Megafunction                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/stratix_pll.inc           ;         ;
-; stratixii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/stratixii_pll.inc         ;         ;
-; cycloneii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/cycloneii_pll.inc         ;         ;
-; db/pll_altpll.v                  ; yes             ; Auto-Generated Megafunction  ; D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/db/pll_altpll.v             ;         ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                         ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                     ; Library ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------+---------+
+; DIGITAL_FREQUENCY_METER.vhd      ; yes             ; User VHDL File               ; C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/DIGITAL_FREQUENCY_METER.vhd ;         ;
+; PLL.vhd                          ; yes             ; User Wizard-Generated File   ; C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/PLL.vhd                     ;         ;
+; CTRL.vhd                         ; yes             ; User VHDL File               ; C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CTRL.vhd                    ;         ;
+; CNT.vhd                          ; yes             ; User VHDL File               ; C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT.vhd                     ;         ;
+; CNT_EX.vhd                       ; yes             ; User VHDL File               ; C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT_EX.vhd                  ;         ;
+; SHIFT_OUT.vhd                    ; yes             ; User VHDL File               ; C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/SHIFT_OUT.vhd               ;         ;
+; altpll.tdf                       ; yes             ; Megafunction                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/altpll.tdf                                     ;         ;
+; aglobal161.inc                   ; yes             ; Megafunction                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/aglobal161.inc                                 ;         ;
+; stratix_pll.inc                  ; yes             ; Megafunction                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/stratix_pll.inc                                ;         ;
+; stratixii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/stratixii_pll.inc                              ;         ;
+; cycloneii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga/16.1/quartus/libraries/megafunctions/cycloneii_pll.inc                              ;         ;
+; db/pll_altpll.v                  ; yes             ; Auto-Generated Megafunction  ; C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/db/pll_altpll.v             ;         ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------+
@@ -697,7 +697,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -707,33 +707,33 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
-    Info: Processing started: Wed May 24 09:40:02 2017
+    Info: Processing started: Wed May 24 19:18:33 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DIGITAL-FREQUENCY-METER -c DIGITAL-FREQUENCY-METER
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file digital_frequency_meter.vhd
-    Info (12022): Found design unit 1: DIGITAL_FREQUENCY_METER-BEHAV File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/DIGITAL_FREQUENCY_METER.vhd Line: 17
-    Info (12023): Found entity 1: DIGITAL_FREQUENCY_METER File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/DIGITAL_FREQUENCY_METER.vhd Line: 5
+    Info (12022): Found design unit 1: DIGITAL_FREQUENCY_METER-BEHAV File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/DIGITAL_FREQUENCY_METER.vhd Line: 17
+    Info (12023): Found entity 1: DIGITAL_FREQUENCY_METER File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/DIGITAL_FREQUENCY_METER.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file pll.vhd
-    Info (12022): Found design unit 1: pll-SYN File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/PLL.vhd Line: 53
-    Info (12023): Found entity 1: PLL File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/PLL.vhd Line: 43
+    Info (12022): Found design unit 1: pll-SYN File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/PLL.vhd Line: 53
+    Info (12023): Found entity 1: PLL File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/PLL.vhd Line: 43
 Info (12021): Found 2 design units, including 1 entities, in source file ctrl.vhd
-    Info (12022): Found design unit 1: CTRL-BEHAV File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CTRL.vhd Line: 12
-    Info (12023): Found entity 1: CTRL File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CTRL.vhd Line: 5
+    Info (12022): Found design unit 1: CTRL-BEHAV File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CTRL.vhd Line: 12
+    Info (12023): Found entity 1: CTRL File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CTRL.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file cnt.vhd
-    Info (12022): Found design unit 1: CNT-BEHAV File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT.vhd Line: 13
-    Info (12023): Found entity 1: CNT File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT.vhd Line: 6
+    Info (12022): Found design unit 1: CNT-BEHAV File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT.vhd Line: 13
+    Info (12023): Found entity 1: CNT File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file cnt_ex.vhd
-    Info (12022): Found design unit 1: CNT_EX-BEHAV File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT_EX.vhd Line: 14
-    Info (12023): Found entity 1: CNT_EX File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT_EX.vhd Line: 6
+    Info (12022): Found design unit 1: CNT_EX-BEHAV File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT_EX.vhd Line: 14
+    Info (12023): Found entity 1: CNT_EX File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT_EX.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file shift_out.vhd
-    Info (12022): Found design unit 1: SHIFT_OUT-BEHAV File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/SHIFT_OUT.vhd Line: 17
-    Info (12023): Found entity 1: SHIFT_OUT File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/SHIFT_OUT.vhd Line: 5
+    Info (12022): Found design unit 1: SHIFT_OUT-BEHAV File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/SHIFT_OUT.vhd Line: 17
+    Info (12023): Found entity 1: SHIFT_OUT File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/SHIFT_OUT.vhd Line: 5
 Info (12127): Elaborating entity "DIGITAL_FREQUENCY_METER" for the top level hierarchy
-Info (12128): Elaborating entity "PLL" for hierarchy "PLL:PLL_MODULE" File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/DIGITAL_FREQUENCY_METER.vhd Line: 70
-Info (12128): Elaborating entity "altpll" for hierarchy "PLL:PLL_MODULE|altpll:altpll_component" File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/PLL.vhd Line: 142
-Info (12130): Elaborated megafunction instantiation "PLL:PLL_MODULE|altpll:altpll_component" File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/PLL.vhd Line: 142
-Info (12133): Instantiated megafunction "PLL:PLL_MODULE|altpll:altpll_component" with the following parameter: File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/PLL.vhd Line: 142
+Info (12128): Elaborating entity "PLL" for hierarchy "PLL:PLL_MODULE" File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/DIGITAL_FREQUENCY_METER.vhd Line: 70
+Info (12128): Elaborating entity "altpll" for hierarchy "PLL:PLL_MODULE|altpll:altpll_component" File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/PLL.vhd Line: 142
+Info (12130): Elaborated megafunction instantiation "PLL:PLL_MODULE|altpll:altpll_component" File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/PLL.vhd Line: 142
+Info (12133): Instantiated megafunction "PLL:PLL_MODULE|altpll:altpll_component" with the following parameter: File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/PLL.vhd Line: 142
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "1"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -793,12 +793,12 @@ Info (12133): Instantiated megafunction "PLL:PLL_MODULE|altpll:altpll_component"
     Info (12134): Parameter "port_extclk3" = "PORT_UNUSED"
     Info (12134): Parameter "width_clock" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/pll_altpll.v
-    Info (12023): Found entity 1: PLL_altpll File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/db/pll_altpll.v Line: 30
+    Info (12023): Found entity 1: PLL_altpll File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/db/pll_altpll.v Line: 30
 Info (12128): Elaborating entity "PLL_altpll" for hierarchy "PLL:PLL_MODULE|altpll:altpll_component|PLL_altpll:auto_generated" File: c:/intelfpga/16.1/quartus/libraries/megafunctions/altpll.tdf Line: 898
-Info (12128): Elaborating entity "CTRL" for hierarchy "CTRL:CTRL_MODULE" File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/DIGITAL_FREQUENCY_METER.vhd Line: 74
-Info (12128): Elaborating entity "CNT" for hierarchy "CNT:M_CNT_MODULE" File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/DIGITAL_FREQUENCY_METER.vhd Line: 79
-Info (12128): Elaborating entity "CNT_EX" for hierarchy "CNT_EX:H_CNT_MODULE" File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/DIGITAL_FREQUENCY_METER.vhd Line: 89
-Info (12128): Elaborating entity "SHIFT_OUT" for hierarchy "SHIFT_OUT:SHIFT_OUT_MODULE" File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/DIGITAL_FREQUENCY_METER.vhd Line: 95
+Info (12128): Elaborating entity "CTRL" for hierarchy "CTRL:CTRL_MODULE" File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/DIGITAL_FREQUENCY_METER.vhd Line: 74
+Info (12128): Elaborating entity "CNT" for hierarchy "CNT:M_CNT_MODULE" File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/DIGITAL_FREQUENCY_METER.vhd Line: 79
+Info (12128): Elaborating entity "CNT_EX" for hierarchy "CNT_EX:H_CNT_MODULE" File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/DIGITAL_FREQUENCY_METER.vhd Line: 89
+Info (12128): Elaborating entity "SHIFT_OUT" for hierarchy "SHIFT_OUT:SHIFT_OUT_MODULE" File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/DIGITAL_FREQUENCY_METER.vhd Line: 95
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
@@ -809,8 +809,8 @@ Info (21057): Implemented 414 device resources after synthesis - the final resou
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 691 megabytes
-    Info: Processing ended: Wed May 24 09:40:14 2017
+    Info: Processing ended: Wed May 24 19:18:45 2017
     Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:24
+    Info: Total CPU time (on all processors): 00:00:23
 
 

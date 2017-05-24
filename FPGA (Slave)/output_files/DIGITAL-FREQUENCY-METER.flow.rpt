@@ -1,5 +1,5 @@
 Flow report for DIGITAL-FREQUENCY-METER
-Wed May 24 09:40:27 2017
+Wed May 24 19:19:00 2017
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Wed May 24 09:40:23 2017           ;
+; Flow Status                        ; Successful - Wed May 24 19:18:56 2017           ;
 ; Quartus Prime Version              ; 16.1.2 Build 203 01/18/2017 SJ Standard Edition ;
 ; Revision Name                      ; DIGITAL-FREQUENCY-METER                         ;
 ; Top-level Entity Name              ; DIGITAL_FREQUENCY_METER                         ;
@@ -65,7 +65,7 @@ agreement for further details.
 +-------------------+-------------------------+
 ; Option            ; Setting                 ;
 +-------------------+-------------------------+
-; Start date & time ; 05/24/2017 09:40:02     ;
+; Start date & time ; 05/24/2017 19:18:33     ;
 ; Main task         ; Compilation             ;
 ; Revision Name     ; DIGITAL-FREQUENCY-METER ;
 +-------------------+-------------------------+
@@ -76,7 +76,7 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+-------------------------+-------------------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value           ; Entity Name             ; Section Id ;
 +-------------------------------------+----------------------------------------+-------------------------+-------------------------+------------+
-; COMPILER_SIGNATURE_ID               ; 141812760587639.149559000214040        ; --                      ; --                      ; --         ;
+; COMPILER_SIGNATURE_ID               ; 141812760587639.149562471301468        ; --                      ; --                      ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --                      ; --                      ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --                      ; --                      ; --         ;
 ; MISC_FILE                           ; PLL.ppf                                ; --                      ; --                      ; --         ;
@@ -97,11 +97,11 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:12     ; 1.0                     ; 691 MB              ; 00:00:24                           ;
-; Fitter                    ; 00:00:06     ; 1.0                     ; 1408 MB             ; 00:00:08                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 560 MB              ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.2                     ; 639 MB              ; 00:00:02                           ;
-; Total                     ; 00:00:22     ; --                      ; --                  ; 00:00:35                           ;
+; Analysis & Synthesis      ; 00:00:12     ; 1.0                     ; 691 MB              ; 00:00:23                           ;
+; Fitter                    ; 00:00:08     ; 1.0                     ; 1409 MB             ; 00:00:08                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 555 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.1                     ; 639 MB              ; 00:00:02                           ;
+; Total                     ; 00:00:23     ; --                      ; --                  ; 00:00:34                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

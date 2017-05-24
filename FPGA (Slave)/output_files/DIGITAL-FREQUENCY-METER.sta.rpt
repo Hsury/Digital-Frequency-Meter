@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for DIGITAL-FREQUENCY-METER
-Wed May 24 09:40:27 2017
+Wed May 24 19:19:01 2017
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
 
 
@@ -135,14 +135,14 @@ agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.15        ;
+; Average used               ; 1.14        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   5.3%      ;
-;     Processor 3            ;   5.2%      ;
-;     Processor 4            ;   4.9%      ;
+;     Processor 2            ;   5.0%      ;
+;     Processor 3            ;   4.8%      ;
+;     Processor 4            ;   4.5%      ;
 +----------------------------+-------------+
 
 
@@ -1036,8 +1036,8 @@ HTML report is unavailable in plain text report export.
 ; 0.819 ; CNT:N_CNT_MODULE|Q_TEMP[2]  ; CNT:N_CNT_MODULE|Q_TEMP[2]  ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.049      ; 1.080      ;
 ; 0.819 ; CNT:N_CNT_MODULE|Q_TEMP[16] ; CNT:N_CNT_MODULE|Q_TEMP[16] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.049      ; 1.080      ;
 ; 0.819 ; CNT:N_CNT_MODULE|Q_TEMP[23] ; CNT:N_CNT_MODULE|Q_TEMP[23] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.049      ; 1.080      ;
-; 0.819 ; CNT:N_CNT_MODULE|Q_TEMP[25] ; CNT:N_CNT_MODULE|Q_TEMP[25] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.049      ; 1.080      ;
 ; 0.819 ; CNT:N_CNT_MODULE|Q_TEMP[31] ; CNT:N_CNT_MODULE|Q_TEMP[31] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.049      ; 1.080      ;
+; 0.819 ; CNT:N_CNT_MODULE|Q_TEMP[25] ; CNT:N_CNT_MODULE|Q_TEMP[25] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.049      ; 1.080      ;
 ; 0.820 ; CNT:N_CNT_MODULE|Q_TEMP[4]  ; CNT:N_CNT_MODULE|Q_TEMP[4]  ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.049      ; 1.081      ;
 ; 0.821 ; CNT:N_CNT_MODULE|Q_TEMP[20] ; CNT:N_CNT_MODULE|Q_TEMP[20] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.049      ; 1.082      ;
 ; 0.821 ; CNT:N_CNT_MODULE|Q_TEMP[26] ; CNT:N_CNT_MODULE|Q_TEMP[26] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.049      ; 1.082      ;
@@ -3777,8 +3777,8 @@ No synchronizer chains to report.
 ; 0.319 ; CNT:N_CNT_MODULE|Q_TEMP[6]  ; CNT:N_CNT_MODULE|Q_TEMP[6]  ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.022      ; 0.425      ;
 ; 0.319 ; CNT:N_CNT_MODULE|Q_TEMP[7]  ; CNT:N_CNT_MODULE|Q_TEMP[7]  ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.022      ; 0.425      ;
 ; 0.319 ; CNT:N_CNT_MODULE|Q_TEMP[17] ; CNT:N_CNT_MODULE|Q_TEMP[17] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.022      ; 0.425      ;
-; 0.319 ; CNT:N_CNT_MODULE|Q_TEMP[27] ; CNT:N_CNT_MODULE|Q_TEMP[27] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.022      ; 0.425      ;
 ; 0.319 ; CNT:N_CNT_MODULE|Q_TEMP[29] ; CNT:N_CNT_MODULE|Q_TEMP[29] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.022      ; 0.425      ;
+; 0.319 ; CNT:N_CNT_MODULE|Q_TEMP[27] ; CNT:N_CNT_MODULE|Q_TEMP[27] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.022      ; 0.425      ;
 ; 0.320 ; CNT:N_CNT_MODULE|Q_TEMP[8]  ; CNT:N_CNT_MODULE|Q_TEMP[8]  ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.022      ; 0.426      ;
 ; 0.320 ; CNT:N_CNT_MODULE|Q_TEMP[9]  ; CNT:N_CNT_MODULE|Q_TEMP[9]  ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.022      ; 0.426      ;
 ; 0.320 ; CNT:N_CNT_MODULE|Q_TEMP[14] ; CNT:N_CNT_MODULE|Q_TEMP[14] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.022      ; 0.426      ;
@@ -3822,8 +3822,8 @@ No synchronizer chains to report.
 ; 0.465 ; CNT:N_CNT_MODULE|Q_TEMP[15] ; CNT:N_CNT_MODULE|Q_TEMP[16] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.023      ; 0.572      ;
 ; 0.466 ; CNT:N_CNT_MODULE|Q_TEMP[13] ; CNT:N_CNT_MODULE|Q_TEMP[14] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.023      ; 0.573      ;
 ; 0.466 ; CNT:N_CNT_MODULE|Q_TEMP[17] ; CNT:N_CNT_MODULE|Q_TEMP[18] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.024      ; 0.574      ;
-; 0.466 ; CNT:N_CNT_MODULE|Q_TEMP[27] ; CNT:N_CNT_MODULE|Q_TEMP[28] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.024      ; 0.574      ;
 ; 0.466 ; CNT:N_CNT_MODULE|Q_TEMP[29] ; CNT:N_CNT_MODULE|Q_TEMP[30] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.024      ; 0.574      ;
+; 0.466 ; CNT:N_CNT_MODULE|Q_TEMP[27] ; CNT:N_CNT_MODULE|Q_TEMP[28] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.024      ; 0.574      ;
 ; 0.467 ; CNT:N_CNT_MODULE|Q_TEMP[1]  ; CNT:N_CNT_MODULE|Q_TEMP[2]  ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.023      ; 0.574      ;
 ; 0.467 ; CNT:N_CNT_MODULE|Q_TEMP[7]  ; CNT:N_CNT_MODULE|Q_TEMP[8]  ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.023      ; 0.574      ;
 ; 0.468 ; CNT:N_CNT_MODULE|Q_TEMP[9]  ; CNT:N_CNT_MODULE|Q_TEMP[10] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.023      ; 0.575      ;
@@ -3858,9 +3858,9 @@ No synchronizer chains to report.
 ; 0.478 ; CNT:N_CNT_MODULE|Q_TEMP[12] ; CNT:N_CNT_MODULE|Q_TEMP[13] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.023      ; 0.585      ;
 ; 0.478 ; CNT:N_CNT_MODULE|Q_TEMP[28] ; CNT:N_CNT_MODULE|Q_TEMP[29] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.024      ; 0.586      ;
 ; 0.479 ; CNT:N_CNT_MODULE|Q_TEMP[6]  ; CNT:N_CNT_MODULE|Q_TEMP[8]  ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.023      ; 0.586      ;
+; 0.479 ; CNT:N_CNT_MODULE|Q_TEMP[22] ; CNT:N_CNT_MODULE|Q_TEMP[24] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.024      ; 0.587      ;
 ; 0.479 ; CNT:N_CNT_MODULE|Q_TEMP[23] ; CNT:N_CNT_MODULE|Q_TEMP[24] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.024      ; 0.587      ;
 ; 0.479 ; CNT:N_CNT_MODULE|Q_TEMP[25] ; CNT:N_CNT_MODULE|Q_TEMP[26] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.024      ; 0.587      ;
-; 0.479 ; CNT:N_CNT_MODULE|Q_TEMP[22] ; CNT:N_CNT_MODULE|Q_TEMP[24] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.024      ; 0.587      ;
 ; 0.480 ; CNT:N_CNT_MODULE|Q_TEMP[8]  ; CNT:N_CNT_MODULE|Q_TEMP[10] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.023      ; 0.587      ;
 ; 0.480 ; CNT:N_CNT_MODULE|Q_TEMP[14] ; CNT:N_CNT_MODULE|Q_TEMP[16] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.023      ; 0.587      ;
 ; 0.480 ; CNT:N_CNT_MODULE|Q_TEMP[18] ; CNT:N_CNT_MODULE|Q_TEMP[20] ; CLK_SIGNAL         ; CLK_SIGNAL  ; 0.000        ; 0.024      ; 0.588      ;
@@ -4539,7 +4539,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime TimeQuest Timing Analyzer
     Info: Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
-    Info: Processing started: Wed May 24 09:40:24 2017
+    Info: Processing started: Wed May 24 19:18:58 2017
 Info: Command: quartus_sta DIGITAL-FREQUENCY-METER -c DIGITAL-FREQUENCY-METER
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -4682,7 +4682,7 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 639 megabytes
-    Info: Processing ended: Wed May 24 09:40:27 2017
+    Info: Processing ended: Wed May 24 19:19:01 2017
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:02
 

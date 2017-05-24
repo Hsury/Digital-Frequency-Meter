@@ -4,9 +4,9 @@ USE IEEE.STD_LOGIC_1164.ALL;
 
 ENTITY CTRL IS
 	PORT (CLK_SYNC : IN STD_LOGIC;	--同步信号
-		   CREG : BUFFER STD_LOGIC;	--锁存信号
-		   CLR : OUT STD_LOGIC;	--清零信号
-			CP : OUT STD_LOGIC);	--计数使能信号
+	      CREG : BUFFER STD_LOGIC;	--锁存信号
+	      CLR : OUT STD_LOGIC;	--清零信号
+	      CP : OUT STD_LOGIC);	--计数使能信号
 END CTRL;
 
 ARCHITECTURE BEHAV OF CTRL IS

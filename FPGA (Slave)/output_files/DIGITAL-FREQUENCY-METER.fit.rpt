@@ -1,5 +1,5 @@
 Fitter report for DIGITAL-FREQUENCY-METER
-Wed May 24 09:40:21 2017
+Wed May 24 19:18:54 2017
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
 
 
@@ -70,7 +70,7 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Wed May 24 09:40:21 2017           ;
+; Fitter Status                      ; Successful - Wed May 24 19:18:54 2017           ;
 ; Quartus Prime Version              ; 16.1.2 Build 203 01/18/2017 SJ Standard Edition ;
 ; Revision Name                      ; DIGITAL-FREQUENCY-METER                         ;
 ; Top-level Entity Name              ; DIGITAL_FREQUENCY_METER                         ;
@@ -205,7 +205,7 @@ agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/output_files/DIGITAL-FREQUENCY-METER.pin.
+The pin-out file can be found in C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/output_files/DIGITAL-FREQUENCY-METER.pin.
 
 
 +-------------------------------------------------------------------+
@@ -1204,9 +1204,9 @@ Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors
 Info (119006): Selected device EP4CE6F17C8 for design "DIGITAL-FREQUENCY-METER"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
-Info (15535): Implemented PLL "PLL:PLL_MODULE|altpll:altpll_component|PLL_altpll:auto_generated|pll1" as Cyclone IV E PLL type File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/db/pll_altpll.v Line: 44
-    Info (15099): Implementing clock multiplication of 2, clock division of 1, and phase shift of 0 degrees (0 ps) for PLL:PLL_MODULE|altpll:altpll_component|PLL_altpll:auto_generated|wire_pll1_clk[0] port File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/db/pll_altpll.v Line: 44
-    Info (15099): Implementing clock multiplication of 1, clock division of 50, and phase shift of 0 degrees (0 ps) for PLL:PLL_MODULE|altpll:altpll_component|PLL_altpll:auto_generated|wire_pll1_clk[1] port File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/db/pll_altpll.v Line: 44
+Info (15535): Implemented PLL "PLL:PLL_MODULE|altpll:altpll_component|PLL_altpll:auto_generated|pll1" as Cyclone IV E PLL type File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/db/pll_altpll.v Line: 44
+    Info (15099): Implementing clock multiplication of 2, clock division of 1, and phase shift of 0 degrees (0 ps) for PLL:PLL_MODULE|altpll:altpll_component|PLL_altpll:auto_generated|wire_pll1_clk[0] port File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/db/pll_altpll.v Line: 44
+    Info (15099): Implementing clock multiplication of 1, clock division of 50, and phase shift of 0 degrees (0 ps) for PLL:PLL_MODULE|altpll:altpll_component|PLL_altpll:auto_generated|wire_pll1_clk[1] port File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/db/pll_altpll.v Line: 44
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
     Info (176445): Device EP4CE10F17C8 is compatible
@@ -1223,29 +1223,29 @@ Info (332144): No user constrained base clocks found in the design
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
-Info (176353): Automatically promoted node PLL:PLL_MODULE|altpll:altpll_component|PLL_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_1) File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/db/pll_altpll.v Line: 78
+Info (176353): Automatically promoted node PLL:PLL_MODULE|altpll:altpll_component|PLL_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_1) File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/db/pll_altpll.v Line: 78
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G3
-Info (176353): Automatically promoted node PLL:PLL_MODULE|altpll:altpll_component|PLL_altpll:auto_generated|wire_pll1_clk[1] (placed in counter C1 of PLL_1) File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/db/pll_altpll.v Line: 78
+Info (176353): Automatically promoted node PLL:PLL_MODULE|altpll:altpll_component|PLL_altpll:auto_generated|wire_pll1_clk[1] (placed in counter C1 of PLL_1) File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/db/pll_altpll.v Line: 78
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G4
-Info (176353): Automatically promoted node CTRL:CTRL_MODULE|C  File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CTRL.vhd Line: 17
+Info (176353): Automatically promoted node CTRL:CTRL_MODULE|C  File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CTRL.vhd Line: 17
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[10] File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT.vhd Line: 21
-        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[9] File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT.vhd Line: 21
-        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[8] File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT.vhd Line: 21
-        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[11] File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT.vhd Line: 21
-        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[5] File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT.vhd Line: 21
-        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[6] File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT.vhd Line: 21
-        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[4] File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT.vhd Line: 21
-        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[7] File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT.vhd Line: 21
-        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[2] File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT.vhd Line: 21
-        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[1] File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/CNT.vhd Line: 21
+        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[10] File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT.vhd Line: 21
+        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[9] File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT.vhd Line: 21
+        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[8] File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT.vhd Line: 21
+        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[11] File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT.vhd Line: 21
+        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[5] File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT.vhd Line: 21
+        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[6] File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT.vhd Line: 21
+        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[4] File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT.vhd Line: 21
+        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[7] File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT.vhd Line: 21
+        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[2] File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT.vhd Line: 21
+        Info (176357): Destination node CNT:M_CNT_MODULE|Q_TEMP[1] File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/CNT.vhd Line: 21
         Info (176358): Non-global destination nodes limited to 10 nodes
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Warning (15064): PLL "PLL:PLL_MODULE|altpll:altpll_component|PLL_altpll:auto_generated|pll1" output port clk[0] feeds output pin "CLK_PLL~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/db/pll_altpll.v Line: 44
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:00
+Warning (15064): PLL "PLL:PLL_MODULE|altpll:altpll_component|PLL_altpll:auto_generated|pll1" output port clk[0] feeds output pin "CLK_PLL~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/db/pll_altpll.v Line: 44
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -1259,27 +1259,27 @@ Info (170195): Router estimated average interconnect usage is 2% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.50 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.52 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (169177): 3 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone IV E Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
-    Info (169178): Pin CLK_50MHZ uses I/O standard 3.3-V LVTTL at E1 File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/DIGITAL_FREQUENCY_METER.vhd Line: 6
-    Info (169178): Pin CLK_SYNC uses I/O standard 3.3-V LVTTL at R13 File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/DIGITAL_FREQUENCY_METER.vhd Line: 8
-    Info (169178): Pin CLK_SIGNAL uses I/O standard 3.3-V LVTTL at T14 File: D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/DIGITAL_FREQUENCY_METER.vhd Line: 7
-Info (144001): Generated suppressed messages file D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/output_files/DIGITAL-FREQUENCY-METER.fit.smsg
+    Info (169178): Pin CLK_50MHZ uses I/O standard 3.3-V LVTTL at E1 File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/DIGITAL_FREQUENCY_METER.vhd Line: 6
+    Info (169178): Pin CLK_SYNC uses I/O standard 3.3-V LVTTL at R13 File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/DIGITAL_FREQUENCY_METER.vhd Line: 8
+    Info (169178): Pin CLK_SIGNAL uses I/O standard 3.3-V LVTTL at T14 File: C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/DIGITAL_FREQUENCY_METER.vhd Line: 7
+Info (144001): Generated suppressed messages file C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/output_files/DIGITAL-FREQUENCY-METER.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 1408 megabytes
-    Info: Processing ended: Wed May 24 09:40:22 2017
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:08
+    Info: Peak virtual memory: 1409 megabytes
+    Info: Processing ended: Wed May 24 19:18:54 2017
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:09
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in D:/Develop/FPGA/Project/DIGITAL-FREQUENCY-METER/output_files/DIGITAL-FREQUENCY-METER.fit.smsg.
+The suppressed messages can be found in C:/Users/Ruoya/Documents/GitHub/Digital-Frequency-Meter/FPGA (Slave)/output_files/DIGITAL-FREQUENCY-METER.fit.smsg.
 
 
